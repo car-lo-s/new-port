@@ -1,0 +1,94 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    /* height: 100vh; */
+    background-color: #202427;
+}
+h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.topo-menu{
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+}
+.topo-menu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.topo-menu ul li{
+    padding: 15px 0px;
+    border-bottom: 2px solid #ED145B;
+}
+.topo-menu ul li:first-of-type{
+    border-top: 2px solid #ED145B;
+}
+.topo-menu ul li a{
+    padding: 10px 40px;
+    color: white;
+}
+.topo-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 300px;
+}
+.topo-titulo h1{
+    font-size: 50px;
+}
+.topo-titulo h2{
+    font-size: 45px;
+}
+.topo-titulo-a{
+    margin-top: 50px;
+}
+.topo-titulo-a a{
+    color: white;
+    border: 2px solid #ED145B;
+    border-radius: 3px;
+    padding: 10px 30px;
+}
+.sobre{
+    padding: 30px 100px;
+    /* height: 100vh; */
+}
+.sobre-div{
+    display: flex;
+}
+.sobre-div p{
+    width: 50%;
+}
+.sobre-img{
+    background-color: red;
+    width: 50%;
+}
+.projeto{
+    padding: 30px 100px;
+    color: white;
+    background-color: #202427;
+}.projeto-ex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projeto-card{
+    height: 400px;
+    width: 600px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
