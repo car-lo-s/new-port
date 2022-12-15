@@ -166,22 +166,60 @@ h2{
     color: white;
     background-color: #202427;
 }.projeto-ex{
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projeto-area{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .projeto-card{
+    margin-top: 10px;
     height: 400px;
     width: 600px;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);
+    cursor: pointer;
+    
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
+}
+.projeto-img{
+    width: 100%;
+    height: 100%;
+    /* background-image: url("img/site 1.jpg");
+    background-size: contain; */
+    border-radius: 12px;
+}
+.projeto-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 2px solid #202427;
 }
 .projeto-dado{
-    color: black;
     display: none;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    justify-content: center;
+    color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    /* border: 1px solid rgba(25, 99, 211, 0.3); */
 }
+.projeto-nome{
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
 
