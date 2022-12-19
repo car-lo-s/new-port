@@ -5,6 +5,7 @@ window.onload = ()=>{
     info.map((a)=>{
         let cartao = document.querySelector('.projeto-card').cloneNode(true)
         cartao.querySelector('.projeto-img img').setAttribute('src',a.img)
+        cartao.querySelector('.projeto-btn').setAttribute('href',a.link)
         cartao.querySelector('.projeto-nome').innerHTML = "Nome: "+ a.titulo
         cartao.querySelector('.projeto-descricao').innerHTML = "Descrição: "+ a.texto
         area.append(cartao) 
