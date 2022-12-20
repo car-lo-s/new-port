@@ -98,6 +98,7 @@ h2{
 }
 .topo-titulo-a{
     margin-top: 50px;
+    
 }
 .topo-titulo-a a{
     --color: #ED145B;
@@ -106,6 +107,7 @@ h2{
     padding: 5px 30px;
     line-height: 2.5em;
     text-align: center;
+    font-weight: bolder;
     /* margin: 20px; */
     position: relative;
     overflow: hidden;
@@ -113,7 +115,7 @@ h2{
     /* border-bottom: 2px solid var(--color); */
     transition: color .5s;
     z-index: 1;
-    font-size: 17px;
+    font-size: 20px;
     border-radius: 6px;
     font-weight: 500;
     color: var(--color);
