@@ -164,6 +164,7 @@ h2{
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .sobre-div{
     display: flex;
@@ -186,14 +187,19 @@ h2{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.projeto h2{
+    text-align: center;
+}
 .projeto-area{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
 }
 .projeto-card{
-    margin-top: 10px;
+    margin: 30px;
     height: 400px;
     width: 600px;
     backdrop-filter: blur(16px) saturate(180%);
